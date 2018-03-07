@@ -1,32 +1,27 @@
 {
-  "name": "@riezebosch/my-theme",
-  "version": "0.0.5",
+  "name": "@riezebosch/xpirit-theme",
+  "version": "0.0.9",
   "description": "my custom reveal.js theme",
   "main": "my.css",
-  "dependencies": {},
   "devDependencies": {
-    "reveal.js": "^3.5.0",
-    "sass": "^0.5.0"
+    "node-sass-chokidar": "0.0.3",
+    "reveal.js": "^3.5.0"
   },
   "scripts": {
-    "build": "sass --scss *.scss *.css",
-    "watch": "sass --watch .",
+    "build": "node-sass-chokidar ./src -o .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.rhea.infosupport.net/kenniscentrum/kc-cli-theme.git"
+    "url": "https://github.com/riezebosch/xpirit-theme.git"
   },
   "keywords": [
     "reveal",
     "revealjs",
     "reveal.js",
-    "theme"
+    "theme",
+    "xpirit"
   ],
   "author": "Manuel Riezebosch",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/riezebosch/reveal.js-theme-infosupport/issues"
-  },
-  "homepage": "https://github.com/riezebosch/reveal.js-theme-infosupport#readme"
+  "license": "MIT"
 }

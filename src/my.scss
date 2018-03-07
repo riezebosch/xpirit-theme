@@ -20,7 +20,7 @@
 $mainFont: 'Josefin Sans', sans-serif;
 $mainColor: #000;
 $headingFont: 'Josefin Sans', sans-serif;
-$headingColor: black;
+$headingColor: #F97C00;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: white;
@@ -44,7 +44,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
  *********************************************/
 .reveal::after {
     content: "";
-    // background-image: url(logo.svg);
+    background-image: url(logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
